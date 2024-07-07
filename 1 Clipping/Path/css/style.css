@@ -1,0 +1,26 @@
+/* Circle jarak dari tengah gambar berdasarkan parameter*/
+/* img {
+    clip-path: circle(100px);
+} */
+
+/* inset parameter (atas, kanan, bawah, kiri)*/
+/* img {
+    clip-path: inset(30px 20px 30px 30px);
+} */
+
+/* ellipse parameter (x y) */
+/* img {
+    clip-path: ellipse(50px 100px);
+} */
+
+/* Polygon parameter selalu 2 yaitu x dan y */
+img {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    background-color: aquamarine;
+    clip-path: polygon(50.7% 0%, 100% 100%, 0% 100%);
+}
